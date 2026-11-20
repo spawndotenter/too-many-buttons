@@ -1,0 +1,67 @@
+{
+  "geode": "5.11.2",
+  "gd": {
+    "android": "2.2081",
+    "win": "2.2081"
+  },
+  "version": "v1.0.0",
+  "id": "spawndotenter.toomanybuttons",
+  "name": "Too Many Buttons",
+  "developer": "spawndotenter",
+  "description": "Choose which main menu buttons are shown.",
+  "settings": {
+    "title-geode": {
+      "type": "title",
+      "name": "Geode Button"
+    },
+    "geode-button-position": {
+      "type": "string",
+      "name": "Geode Button Position",
+      "description": "Where the Geode button goes. The Geode button itself can never be hidden.",
+      "default": "Bottom",
+      "one-of": ["Bottom", "Under Daily Chests"]
+    },
+    "title-mods": {
+      "type": "title",
+      "name": "Other Mods"
+    },
+    "hide-mod-buttons": {
+      "type": "bool",
+      "name": "Hide Other Mods' Buttons",
+      "description": "Automatically hides main menu buttons added by other mods, including mods you install later.",
+      "default": false
+    },
+    "keep-visible-mods": {
+      "type": "string",
+      "name": "Mods To Keep Visible",
+      "description": "Comma-separated mod IDs whose buttons stay visible even when hiding all, for example: author.modname, other.mod",
+      "default": ""
+    },
+    "hidden-ids": {
+      "type": "string",
+      "name": "Extra IDs To Hide",
+      "description": "Comma-separated button IDs or mod IDs to always hide. The IDs are written to the Geode log when the main menu opens.",
+      "default": ""
+    },
+    "title-vanilla": {
+      "type": "title",
+      "name": "Hide Game Buttons"
+    },
+    "hide-play": { "type": "bool", "name": "Hide Play", "default": false },
+    "hide-icon-kit": { "type": "bool", "name": "Hide Icon Kit", "default": false },
+    "hide-editor": { "type": "bool", "name": "Hide Editor", "default": false },
+    "hide-achievements": { "type": "bool", "name": "Hide Achievements", "default": false },
+    "hide-settings": { "type": "bool", "name": "Hide Settings", "default": false },
+    "hide-stats": { "type": "bool", "name": "Hide Stats", "default": false },
+    "hide-newgrounds": { "type": "bool", "name": "Hide Newgrounds", "default": false },
+    "hide-daily-chests": { "type": "bool", "name": "Hide Daily Chests", "default": false },
+    "hide-profile": { "type": "bool", "name": "Hide Profile", "default": false },
+    "hide-more-games": { "type": "bool", "name": "Hide More Games", "default": false },
+    "hide-robtop-logo": { "type": "bool", "name": "Hide RobTop Logo", "default": false },
+    "hide-facebook": { "type": "bool", "name": "Hide Facebook", "default": false },
+    "hide-twitter": { "type": "bool", "name": "Hide Twitter", "default": false },
+    "hide-youtube": { "type": "bool", "name": "Hide YouTube", "default": false },
+    "hide-twitch": { "type": "bool", "name": "Hide Twitch", "default": false },
+    "hide-discord": { "type": "bool", "name": "Hide Discord", "default": false }
+  }
+}
