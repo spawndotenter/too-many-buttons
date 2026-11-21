@@ -9,6 +9,11 @@
   "name": "Too Many Buttons",
   "developer": "spawndotenter",
   "description": "Choose which main menu buttons are shown.",
+  "links": {
+    "homepage": "https://github.com/spawndotenter?tab=repositories",
+    "source": "https://github.com/spawndotenter?tab=repositories",
+    "community": "https://discord.gg/fyFJvbEnVF"
+  },
   "resources": {
     "sprites": ["banner.png"]
   },
