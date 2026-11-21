@@ -4,11 +4,14 @@
     "android": "2.2081",
     "win": "2.2081"
   },
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "id": "spawndotenter.toomanybuttons",
   "name": "Too Many Buttons",
   "developer": "spawndotenter",
   "description": "Choose which main menu buttons are shown.",
+  "resources": {
+    "sprites": ["banner.png"]
+  },
   "settings": {
     "title-geode": {
       "type": "title",
@@ -37,10 +40,16 @@
       "description": "Comma-separated mod IDs whose buttons stay visible even when hiding all, for example: author.modname, other.mod",
       "default": ""
     },
+    "blacklisted-mods": {
+      "type": "string",
+      "name": "Mod Blacklist",
+      "description": "Comma-separated mod IDs whose buttons are always hidden, even if the setting above is off.",
+      "default": ""
+    },
     "hidden-ids": {
       "type": "string",
-      "name": "Extra IDs To Hide",
-      "description": "Comma-separated button IDs or mod IDs to always hide. The IDs are written to the Geode log when the main menu opens.",
+      "name": "Extra Button IDs To Hide",
+      "description": "Comma-separated button IDs to always hide. Every button ID is written to the Geode log when the main menu opens.",
       "default": ""
     },
     "title-vanilla": {
