@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.25)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
-project(TooManyButtons VERSION 1.0.0)
+project(TooManyButtons VERSION 1.0.2)
 
 file(GLOB SOURCES src/*.cpp)
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
